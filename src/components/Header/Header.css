@@ -3,12 +3,10 @@
     position: fixed;
     width: 100%;
     background-color: transparent;
-    font-size: 16px;
     left: 0;
     top: 0;
     z-index: 99;
-    background-color: aliceblue;
-    box-shadow: 0 1px 4px orange;
+    box-shadow: 0 1px 4px gainsboro;
 }
 
 .container {
@@ -22,13 +20,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 2.5rem;
+    height: 3.5rem;
 }
 
 .logo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    font-weight: 600;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     color: black;
@@ -39,26 +37,44 @@
 }
 
 .menu {
-
-    background-color: aliceblue;
     top: 0;
     bottom: 0;
     transition: 0.5s;
     z-index: 999;
+
 }
 
 .lists {
     list-style: none;
     display: flex;
     row-gap: 2.9rem;
-    padding-top: 1px;
-    gap: 3rem;
+    gap: 5rem;
+    color: rgb(114, 112, 112);
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-size: 1.2rem;
 }
 
+.lists:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.close {
+    font-size: 2rem;
+    color: rgb(114, 112, 112);
+    position: absolute;
+}
+
+.close:hover {
+    color: black;
+    cursor: pointer;
+}
 
 .toggle {
     color: pink;
     cursor: pointer;
-    font-size: 2rem;
-    display: inline-flex;
+    font-size: 1.5rem;
+    display: flex;
 }

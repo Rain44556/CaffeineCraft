@@ -15,9 +15,7 @@ const Header = () => {
     <li className='item'><a href="#site" className='navbar-link'></a>Site</li>
 </ul>
 
-<div className='close' id='close'>
-    <i className='bx bx-x'></i>
-</div>
+
 </div>
 
 <div className='toggle' id='toggle'>
