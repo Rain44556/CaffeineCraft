@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './Header.css';
 
 const Header = () => {
     return (
         <header className='header' id='header'>
-            <nav className='nav-bar'>
+            <nav className='nav-bar container'>
                 <a href="#home" className='logo'><span>Caffeine</span>Craft</a>
 
 <div className="menu" id='menu'>
