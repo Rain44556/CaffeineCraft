@@ -1,0 +1,46 @@
+section {
+    padding: 5rem 0 2rem;
+}
+
+.star {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.star h1 {
+    margin-top: 4rem;
+    margin-right: 3rem;
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    z-index: 99;
+}
+
+.star button {
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgb(31, 23, 38);
+    transition: 0.5s;
+    text-transform: uppercase;
+    border-radius: 0, 5rem;
+}
+
+.star button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgb(50, 39, 59);
+}

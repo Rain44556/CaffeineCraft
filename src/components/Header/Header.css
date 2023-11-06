@@ -28,7 +28,7 @@
     font-size: 1.2rem;
     display: flex;
     align-items: center;
-    color: black;
+    color: white;
 }
 
 .logo span {
@@ -40,7 +40,7 @@ li {
     display: flex;
     float: right;
     margin-right: 5rem;
-    color: black;
+    color: white;
     font-weight: 600;
     text-transform: capitalize;
     transition: 0.5s;
@@ -61,5 +61,5 @@ li:hover {
 }
 
 .toggle:hover {
-    color: black;
+    color: white;
 }
