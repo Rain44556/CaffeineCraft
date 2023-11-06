@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 
 const Header = () => {
+    const [changeHeader,setChangeHeader] = useState(false);
+    
+    const changeHeaderColor = () =>{
+        if (window.scrollY >= 50){
+            setChangeHeader(true)
+        } else{
+            setChangeHeader(false)
+        }
+    }
+
+window.addEventListener('scroll', changeHeaderColor)
+
     return (
-        <header className='header' id='header'>
+        <header className= {`header ${changeHeader && "scroll-header"}`} id='header'>
             <nav className='nav-bar container'>
                 <a href="#home" className='logo'><span>Caffeine</span>Craft</a>
 
