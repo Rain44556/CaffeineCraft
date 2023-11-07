@@ -1,3 +1,40 @@
-.unique-img-border {
-    width: 50%;
+.container {
+    .container {
+        max-width: 64rem;
+        margin-left: 1.4rem;
+        margin-right: 1.4rem;
+    }
+
+    .section {
+        padding: 5rem 0 2rem;
+    }
+
+
+    .unique {}
+
+}
+
+.unique-catagory {
+    margin: 20px;
+    box-shadow: 2px 2px 3px 4px gray;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.unique-coffees {
+    margin: 5px;
+    border: 2px solid rgb(13, 11, 11);
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px 4px rgb(13, 11, 11);
+
+}
+
+.unique-coffees h2 {
+    font-size: 16px;
+}
+
+.coffee img {
+    width: 20%;
 }
