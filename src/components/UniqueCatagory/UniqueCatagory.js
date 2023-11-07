@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './UniqueCatagory.css';
 const UniqueCatagory = () => {
     return (
         <div>
@@ -12,7 +12,7 @@ const UniqueCatagory = () => {
 <div className='unique-catagory'>
     <div className='special-group'>
 <div className='unique-img-border'>
-    <img src="" alt="" />
+    <img src="./images/" alt="" />
 </div>
     </div>
 </div>
