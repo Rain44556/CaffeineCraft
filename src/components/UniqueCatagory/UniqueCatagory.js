@@ -11,26 +11,6 @@ const UniqueCatagory = () => {
 
 <div className='unique-catagory'>
 
-<div className='unique-coffees'>
-    <div className='coffee'>
-    <img src="./images/Latte coffee.jpg" alt="" />
-    </div>
-    <h2>Latte Coffee</h2>
-    </div>
-
-    <div className='unique-coffees'>
-    <div className='coffee'>
-    <img src="./images/mocha-coffee.jpg" alt="" />
-    </div>
-    <h2>Mocha Coffee</h2>
-    </div>
-
-    <div className='unique-coffees'>
-    <div className='coffee'>
-    <img src="./images/americano-iced-coffee.jpg" alt="" />
-    </div>
-    <h2>Americano Iced Coffee</h2>
-    </div>
 
     <div className='unique-coffees'>
     <div className='coffee'>
@@ -45,7 +25,34 @@ const UniqueCatagory = () => {
     </div>
     <h2>Americano Hot Coffee</h2>
     </div>
+
+    <div className='unique-coffees'>
+    <div className='coffee'>
+    <img src="./images/ristretto-coffee.jpg" alt="" />
+    </div>
+    <h2>Ristretto Coffee</h2>
+    </div>
    
+    <div className='unique-coffees'>
+    <div className='coffee'>
+    <img src="./images/americano-iced-coffee.jpg" alt="" />
+    </div>
+    <h2>Americano Iced Coffee</h2>
+    </div>
+
+    <div className='unique-coffees'>
+    <div className='coffee'>
+    <img src="./images/Latte coffee.jpg" alt="" />
+    </div>
+    <h2>Latte Coffee</h2>
+    </div>
+
+    <div className='unique-coffees'>
+    <div className='coffee'>
+    <img src="./images/mocha-coffee.jpg" alt="" />
+    </div>
+    <h2>Mocha Coffee</h2>
+    </div>
 
                 </div>
                 </div>
