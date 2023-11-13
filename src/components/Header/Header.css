@@ -32,7 +32,7 @@
 }
 
 .logo span {
-    color: pink;
+    color: plum;;
 }
 
 li {
@@ -49,11 +49,11 @@ li {
 
 li:hover {
     cursor: pointer;
-    color: pink;
+    color: plum;;
 }
 
 .toggle {
-    color: pink;
+    color: plum;
     cursor: pointer;
     font-size: 1.5rem;
     display: inline-block;

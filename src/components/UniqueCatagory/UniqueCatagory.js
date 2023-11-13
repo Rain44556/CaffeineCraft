@@ -28,7 +28,7 @@ const UniqueCatagory = () => {
 
     <div className='unique-coffees'>
     <div className='coffee'>
-    <img src="./images/ristretto-coffee.jpg" alt="" />
+    <img src="./images/ristretto-coffee.jpeg" alt="" />
     </div>
     <h2>Ristretto</h2>
     </div>
@@ -36,7 +36,7 @@ const UniqueCatagory = () => {
 
     <div className='unique-coffees'>
     <div className='coffee'>
-    <img src="./images/Latte coffee.jpg" alt="" />
+    <img src="./images/latte-coffee.jpg" alt="" />
     </div>
     <h2>Latte</h2>
     </div>
