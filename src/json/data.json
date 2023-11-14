@@ -1,0 +1,12 @@
+{
+    "catagories": [
+        {
+            "_id": "pqr567",
+            "catagory": "main-menu",
+            "title": "Pizza Macaroni",
+            "price": "9",
+            "imageUrl": "./images/menu/pizza.jpg"
+        },
+        {}
+    ]
+}
