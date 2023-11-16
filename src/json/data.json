@@ -3,9 +3,16 @@
         {
             "_id": "pqr567",
             "catagory": "main-menu",
-            "title": "Pizza Macaroni",
-            "price": "9",
+            "title": "Pizza",
+            "price": "179",
             "imageUrl": "./images/menu/pizza.jpg"
+        },
+        {
+            "_id": "pqr567",
+            "catagory": "main-menu",
+            "title": "burger",
+            "price": "160",
+            "imageUrl": "./images/menu/bueger.jpg"
         },
         {}
     ]
