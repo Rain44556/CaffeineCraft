@@ -61,7 +61,7 @@
             "catagory": "main-menu",
             "title": "Pestry",
             "price": "60",
-            "imageUrl": "./images/menu/pastry.jpg"
+            "imageUrl": "./images/menu/pestry.jpg"
         },
         {
             "_id": "pqr567",
@@ -69,7 +69,6 @@
             "title": "Cupcake",
             "price": "120",
             "imageUrl": "./images/menu/cupcake.jpg"
-        },
-        {}
+        }
     ]
 }

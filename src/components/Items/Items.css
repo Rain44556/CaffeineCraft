@@ -4,3 +4,16 @@
     gap: 2rem;
     margin-bottom: 2.5rem;
 }
+
+.items-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.items-img {
+
+    width: 50%;
+    height: 50%;
+}

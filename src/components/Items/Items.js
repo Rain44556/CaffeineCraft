@@ -14,17 +14,17 @@ const Items = () => {
 <ul className="items-filter">
     <li className='item items-line active-item' data-filter='.delicacies'>
         <h4>Main Menu</h4>
-        <span>3 Items</span>
+        <span>3 items</span>
     </li>
     
     <li className='item items-line' data-filter =".coffee">
         <h4> Coffee</h4>
-        <span>4 Items</span>
+        <span>4 items</span>
     </li>
 
     <li className='item' data-filter=".cake">
-        <h4>Desserts</h4>
-        <span>4 product</span>
+        <h4>Desserts</h4>  
+        <span>4 items</span>
     </li>
 </ul>
                 
