@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../json/data.json'
+import data from '../../json/data.json';
 import './Items.css';
 
 
@@ -33,7 +33,7 @@ const Items = () => {
         return(
             <article className='items-card main-menu'>
                 <div className='items-shape'>
-                    <img src="./images/menu/pizza.jpg" alt="" className='items-img'/>
+                    <img src={catagory.imageUrl} alt="" className='items-img'/>
                 </div>
                 <div className="items-data">
                     <h2 className='item-price'>${catagory.price}</h2>
