@@ -7,7 +7,7 @@ const Items = () => {
     return (
         <div>
             <section className='items section' id="items">
-                <div>
+                <div className='items_container container'>
                 <h3>Locate appetising cuisine and<br/>
                     select your favourites.</h3>
     
