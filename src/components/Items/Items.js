@@ -7,27 +7,15 @@ const Items = () => {
     return (
         <div>
             <section className='items section' id="items">
-                <div className='items_container container'>
-                <h3>Locate appetising cuisine and<br/>
-                    select your favourites.</h3>
+                <div className='items-container container'>
+                <h1>Locate appetising cuisine and<br/>
+                    select your favourites</h1>
     
-<ul className="items-filter">
-    <li className='item items-line active-item' data-filter='.delicacies'>
-        <h4>Main Menu</h4>
-        <span>3 items</span>
-    </li>
-    
-    <li className='item items-line' data-filter =".coffee">
-        <h4> Coffee</h4>
-        <span>4 items</span>
-    </li>
+    <div className="items-filter">
+        <h4 className='item items-line active-item' data-filter='.delicacies'>Our Menu Card</h4>
+    </div> 
 
-    <li className='item' data-filter=".cake">
-        <h4>Desserts</h4>  
-        <span>4 items</span>
-    </li>
-</ul>
-                
+
 <div className="items-content grid">
     {data.catagories.map((catagory,index) =>{
         return(
