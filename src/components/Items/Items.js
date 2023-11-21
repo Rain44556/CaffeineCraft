@@ -11,9 +11,22 @@ const Items = () => {
                 <h1>Locate appetising cuisine and<br/>
                     select your favourites</h1>
     
-    <div className="items-filter">
-        <h4 className='item items-line active-item' data-filter='.delicacies'>Our Menu Card</h4>
-    </div> 
+    <ul className="items-filter">
+    <li className='item items-line active-item' data-filter='.delicacies'>
+        <h4>Main Menu</h4>
+        <span>3 items</span>
+    </li>
+
+    <li className='item items-line' data-filter =".coffee">
+        <h4> Coffee</h4>
+        <span>4 items</span>
+    </li>
+
+    <li className='item' data-filter=".cake">
+        <h4>Desserts</h4>  
+        <span>4 items</span>
+    </li>
+</ul>
 
 
 <div className="items-content grid">
@@ -24,7 +37,7 @@ const Items = () => {
                     <img src={catagory.imageUrl} alt="" className='items-img'/>
                 </div>
                 <div className="items-data">
-                    <h2>${catagory.price}</h2>
+                    <h2>Tk. {catagory.price}</h2>
                     <h3>{catagory.title}</h3>
                     <button className='button btn-items'>
                         <i className='bx bx-shopping-bag'></i>
