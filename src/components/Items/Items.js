@@ -36,8 +36,8 @@ const Items = () => {
                     <img src={catagory.imageUrl} alt="" className='items-img'/>
                 </div>
                 <div className="items-data">
-                    <h2 className='item-price'>${catagory.price}</h2>
-                    <h3 className='item-name'>{catagory.title}</h3>
+                    <h2>${catagory.price}</h2>
+                    <h3>{catagory.title}</h3>
                     <button className='button btn-items'>
                         <i className='bx bx-shopping-bag'></i>
                     </button>
