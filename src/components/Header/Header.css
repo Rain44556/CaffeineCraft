@@ -32,13 +32,16 @@
 }
 
 .logo span {
-    color: plum;;
+    color: plum;
+    ;
 }
 
-li {
-    list-style: none;
+li .navbar-link {
+    text-decoration: none;
     display: flex;
-    float: right;
+    flex-direction: column;
+    row-gap: -2rem;
+    text-align: center;
     margin-right: 5rem;
     color: white;
     font-weight: 600;
@@ -47,9 +50,10 @@ li {
     font-size: 1.3rem;
 }
 
-li:hover {
+li .navbar-link:hover {
     cursor: pointer;
-    color: plum;;
+    color: plum;
+    ;
 }
 
 .toggle {

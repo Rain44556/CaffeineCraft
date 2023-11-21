@@ -45,13 +45,6 @@
         {
             "_id": "pqr567",
             "catagory": "main-menu",
-            "title": "Naga Pasta",
-            "price": "230",
-            "imageUrl": "./images/menu/naga-pasta.jpg"
-        },
-        {
-            "_id": "pqr567",
-            "catagory": "main-menu",
             "title": "Ramen",
             "price": "320",
             "imageUrl": "./images/menu/ramen.jpg"

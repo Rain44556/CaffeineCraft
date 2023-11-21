@@ -28,7 +28,7 @@
 }
 
 .items-card {
-    background-color: rgb(234, 229, 229);
+    background-color: rgb(210, 202, 202);
     border-radius: 0.8rem;
 }
 
@@ -50,4 +50,19 @@
 
 .items-data h3 {
     font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.btn-items {
+    display: inline-flex;
+    font-size: 1.3rem;
+    padding: 0.7rem;
+    border-radius: 60%;
+    background-color: rgb(249, 195, 249);
+    color: rgb(10, 10, 10);
+    box-shadow: 0 5px 13px gray;
+    right: 1rem;
+    top: -1.3rem;
+    position: absolute;
+    cursor: pointer;
 }
