@@ -62,6 +62,41 @@
             "title": "Cupcake",
             "price": "120",
             "imageUrl": "./images/menu/cupcake.jpg"
+        },
+        {
+            "_id": "pqr567",
+            "catagory": "main-menu",
+            "title": "Pudding",
+            "price": "50",
+            "imageUrl": "./images/menu/pudding.jpg"
+        },
+        {
+            "_id": "pqr567",
+            "catagory": "main-menu",
+            "title": "Oreo shake",
+            "price": "170",
+            "imageUrl": "./images/menu/oreo shake.jpg"
+        },
+        {
+            "_id": "pqr567",
+            "catagory": "main-menu",
+            "title": "Strawberry shake",
+            "price": "210",
+            "imageUrl": "./images/menu/strawbery-shake.jpg"
+        },
+        {
+            "_id": "pqr567",
+            "catagory": "main-menu",
+            "title": "Lemonade juice",
+            "price": "120",
+            "imageUrl": "./images/menu/lemonade.jpg"
+        },
+        {
+            "_id": "pqr567",
+            "catagory": "main-menu",
+            "title": "Orange juice",
+            "price": "110",
+            "imageUrl": "./images/menu/orange-juice.jpg"
         }
     ]
 }

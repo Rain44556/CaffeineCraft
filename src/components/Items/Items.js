@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import data from '../../json/data.json';
 import './Items.css';
 
 
 const Items = () => {
+
+    const [filter, setFilter] = useState('main-menu');
     return (
         <div>
             <section className='items section' id="items">
@@ -12,18 +14,24 @@ const Items = () => {
                     select your favourites</h1>
     
     <ul className="items-filter">
-    <li className='item items-line active-item' data-filter='.delicacies'>
+    <li className='item items-line active-item' 
+    onClick={() => setFilter('main-menu')}
+     data-filter='.delicacies'>
         <h4>Main Menu</h4>
         <span>3 items</span>
     </li>
 
-    <li className='item items-line' data-filter =".coffee">
-        <h4> Coffee</h4>
+    <li className='item items-line' 
+    onClick={() => setFilter('desert')}
+     data-filter =".desert">
+        <h4> Deserts </h4>
         <span>4 items</span>
     </li>
 
-    <li className='item' data-filter=".cake">
-        <h4>Desserts</h4>  
+    <li className='item' 
+    onClick={() => setFilter('drinks')}
+    data-filter=".drinks">
+        <h4>Drinks</h4>  
         <span>4 items</span>
     </li>
 </ul>
@@ -32,19 +40,21 @@ const Items = () => {
 <div className="items-content grid">
     {data.catagories.map((catagory,index) =>{
         return(
+         catagory.catagory === filter && (
             <article className='items-card main-menu'>
-                <div className='items-shape'>
-                    <img src={catagory.imageUrl} alt="" className='items-img'/>
-                </div>
-                <div className="items-data">
-                    <h2>Tk. {catagory.price}</h2>
-                    <h3>{catagory.title}</h3>
-                    <button className='button btn-items'>
-                        <i className='bx bx-shopping-bag'></i>
-                    </button>
+            <div className='items-shape'>
+                <img src={catagory.imageUrl} alt="" className='items-img'/>
+            </div>
+            <div className="items-data">
+                <h2>Tk. {catagory.price}</h2>
+                <h3>{catagory.title}</h3>
+                <button className='button btn-items'>
+                    <i className='bx bx-shopping-bag'></i>
+                </button>
 
-                </div>
-            </article>
+            </div>
+        </article>
+         )
         )
     })}
 </div>
