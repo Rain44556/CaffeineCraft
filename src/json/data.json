@@ -98,5 +98,19 @@
             "price": "110",
             "imageUrl": "./images/menu/orange-juice.jpg"
         }
+    ],
+    "places": [
+        {
+            "_id": "pqr567",
+            "imageUrl": "./images/place/coffee-place.jpg"
+        },
+        {
+            "_id": "pqr567",
+            "imageUrl": "./images/place/coffee-place1.jpg"
+        },
+        {
+            "_id": "pqr567",
+            "imageUrl": "./images/place/coffee-place2.jpg"
+        }
     ]
 }

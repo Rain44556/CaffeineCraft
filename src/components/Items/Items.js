@@ -14,19 +14,19 @@ const Items = () => {
                     select your favourites</h1>
     
     <ul className="items-filter">
-    <li className='item items-line active-item' 
+    <li className={`item items-line ${filter === 'main-menu' && 'active-item'}`} 
     onClick={() => setFilter('main-menu')}
      data-filter='.delicacies'>
         <h4>Main Menu</h4>
     </li>
 
-    <li className='item items-line' 
+    <li className= {`item items-line ${filter === 'deserts' && 'active-item'}`} 
     onClick={() => setFilter('deserts')}
      data-filter =".desert">
         <h4> Deserts </h4>
     </li>
 
-    <li className='item' 
+    <li className= {`item items-line ${filter === 'drinks' && 'active-item'}`}
     onClick={() => setFilter('drinks')}
     data-filter=".drinks">
         <h4>Drinks</h4>  

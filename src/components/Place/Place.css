@@ -1,0 +1,7 @@
+.place-container h3 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
