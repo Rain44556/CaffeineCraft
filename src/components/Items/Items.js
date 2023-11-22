@@ -18,21 +18,18 @@ const Items = () => {
     onClick={() => setFilter('main-menu')}
      data-filter='.delicacies'>
         <h4>Main Menu</h4>
-        <span>3 items</span>
     </li>
 
     <li className='item items-line' 
-    onClick={() => setFilter('desert')}
+    onClick={() => setFilter('deserts')}
      data-filter =".desert">
         <h4> Deserts </h4>
-        <span>4 items</span>
     </li>
 
     <li className='item' 
     onClick={() => setFilter('drinks')}
     data-filter=".drinks">
         <h4>Drinks</h4>  
-        <span>4 items</span>
     </li>
 </ul>
 

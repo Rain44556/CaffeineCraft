@@ -13,6 +13,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-bottom: 2.5rem;
+
 }
 
 
@@ -23,15 +24,11 @@
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(125, 40, 125);
+    box-shadow: 2px 2px 2px 2px;
 }
 
 
 .active-item h4 {
-    color: rgb(125, 40, 125);
-}
-
-.item span {
-    font-family: Arial, Helvetica, sans-serif;
     color: rgb(125, 40, 125);
 }
 

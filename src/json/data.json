@@ -4,7 +4,7 @@
             "_id": "pqr567",
             "catagory": "main-menu",
             "title": "Pizza",
-            "price": "179",
+            "price": "700",
             "imageUrl": "./images/menu/pizza.jpg"
         },
         {
@@ -18,7 +18,7 @@
             "_id": "pqr567",
             "catagory": "main-menu",
             "title": "Chicken Soup",
-            "price": "120",
+            "price": "320",
             "imageUrl": "./images/menu/chicken-soup.jpg"
         },
         {
@@ -32,7 +32,7 @@
             "_id": "pqr567",
             "catagory": "main-menu",
             "title": "Vegitable Soup",
-            "price": "110",
+            "price": "200",
             "imageUrl": "./images/menu/veg-soup.jpg"
         },
         {
@@ -51,49 +51,49 @@
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "catagory": "deserts",
             "title": "Pestry",
             "price": "60",
             "imageUrl": "./images/menu/pestry.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "catagory": "deserts",
             "title": "Cupcake",
             "price": "120",
             "imageUrl": "./images/menu/cupcake.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "catagory": "deserts",
             "title": "Pudding",
             "price": "50",
             "imageUrl": "./images/menu/pudding.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "catagory": "drinks",
             "title": "Oreo shake",
             "price": "170",
             "imageUrl": "./images/menu/oreo shake.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "catagory": "drinks",
             "title": "Strawberry shake",
             "price": "210",
             "imageUrl": "./images/menu/strawbery-shake.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "catagory": "drinks",
             "title": "Lemonade juice",
             "price": "120",
             "imageUrl": "./images/menu/lemonade.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "catagory": "drinks",
             "title": "Orange juice",
             "price": "110",
             "imageUrl": "./images/menu/orange-juice.jpg"
