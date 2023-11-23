@@ -21,7 +21,6 @@ window.addEventListener('scroll', changeHeaderColor)
 
 <div className="menu" id='menu'>
 <ul className='lists'>
-<li><a href="#blog" className='navbar-link'>Blog</a></li>
     <li><a href="#place" className='navbar-link'>Place</a></li>
     <li><a href="#items" className='navbar-link'>Items</a></li>
     <li><a href="#home" className='navbar-link active-link'>Home</a></li>

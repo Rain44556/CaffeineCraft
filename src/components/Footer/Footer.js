@@ -30,7 +30,7 @@ const Footer = () => {
            </div>
 
             <div className="footer-details">
-                 <p className='newsletter-details'> Subscribe 
+                 <p className='newsletter-subtitle'> Subscribe 
                  Our Newsletter</p>
                  
             <div className='newsletter'>
@@ -53,8 +53,7 @@ const Footer = () => {
                     <i className='bx bxl-facebook'></i>
                 </a>
             </ul>
-
-<span> All rights reserved </span>
+<span> &#169; All rights reserved </span>
 
           </div>
           </div>
