@@ -5,14 +5,19 @@ const Footer = () => {
     return (
         <div>
           <footer className="footer">
+            <div className="footer-container">
+                <h1 className='footer-title'>Caffiene<span>.craft</span></h1>
+                <p className='para'>The ideal workspace for increasing productivity</p>
+            
+
+            <div className='footer-content'>
             <div className='footer-details'>
                 <h3 className='subtitle'>Address</h3>
                 <p className='information'>
                     Gec,khulsi town <br />road no.30
                 </p>
-           
+           </div>
 
-           <div className='footer-content'>
            <div className="footer-details">
                 <h3 className="subtitle">Contact</h3>
                 <p className='information'>Caffeinecraft@email.com <br />
@@ -27,6 +32,7 @@ const Footer = () => {
             <div className="footer-details">
                  <p className='newsletter-details'> Subscribe 
                  Our Newsletter</p>
+                 
             <div className='newsletter'>
             <input type="email"
             placeholder='Email Adress'
@@ -38,8 +44,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='footer-group'>
-            <ul className='footer-social'>
+          <div className='group'>
+            <ul className='social-links'>
                 <a href="#" target="_blank" className='social-link'>
                     <i className='bx bxl-linkedin'></i>
                 </a>

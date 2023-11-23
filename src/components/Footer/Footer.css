@@ -1,9 +1,50 @@
 .footer {
-    padding: 4.5rem 0 3.5rem;
-    background-color: rgb(213, 213, 213);
+    color: plum;
+    padding: 0.5rem;
+    background-color: black;
+}
+
+.footer-title {
+    color: plum;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+span {
+    color: whitesmoke;
+}
+
+.para {
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 .footer-content {
     display: grid;
-    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.newsletter {
+    display: flex;
+    column-gap: 0.7rem;
+}
+
+.newsletter input {
+    outline: none;
+    border: none;
+    padding: 0.8rem 0.8rem;
+    border-radius: 0.4rem;
+    width: 80%;
+    color: black;
+    background-color: plum;
+}
+
+.btn-footer {
+    background-color: rgb(162, 54, 162);
+    display: inline-flex;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
 }

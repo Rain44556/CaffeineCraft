@@ -2,20 +2,12 @@
     background-color: rgb(79, 33, 0);
 }
 
-.place-container h3 {
-    padding: 1rem;
-    text-align: left;
-    color: aliceblue;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-    margin-left: 5rem;
-    text-transform: capitalize;
-}
 
 .place-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2rem;
+    padding-top: 3rem;
 }
 
 .img-place {
@@ -57,6 +49,7 @@
 }
 
 .place-details {
+    text-transform: capitalize;
     float: right;
     color: wheat;
     text-align: center;

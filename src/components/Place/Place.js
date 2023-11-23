@@ -11,9 +11,15 @@ const Place = () => {
         <div>
          <section className='place' id='place'>
          <div className='place-container'>
-         <h3>bring you comfort With our cosy services!</h3>
+      
            
          <div className='place-content'>
+
+         <div className='place-details'>
+        <h2 className='title'>Locate a location that you admire</h2>
+        <p className='description'>We offer the ideal environment, complete with lovely decor and 
+        <br /> positive energy, for continued productivity and focus</p>
+    </div>
 
          <div className='img-place'>
          <img src={imageSelect} className='img-place-big'/>
@@ -29,13 +35,6 @@ const Place = () => {
 
         </div>
         </div>
-
-
-    <div className='place-details'>
-        <h2 className='title'>Locate a location that you admire</h2>
-        <p className='description'>We offer the ideal environment, complete with lovely decor and 
-        <br /> positive energy, for continued productivity and focus</p>
-    </div>
 
     </div>
         </div>
