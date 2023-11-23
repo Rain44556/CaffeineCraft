@@ -4,7 +4,7 @@ import StarSection from './components/StarSection/StarSection.js';
 import UniqueCatagory from './components/UniqueCatagory/UniqueCatagory.js';
 import Items from './components/Items/Items.js';
 import Place from './components/Place/Place.js';
-
+import Footer from './components/Footer/Footer.js';
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
   <UniqueCatagory></UniqueCatagory>
   <Items></Items>
   <Place></Place>
+  <Footer></Footer>
 </div>
   );
 }
