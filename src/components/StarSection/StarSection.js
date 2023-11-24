@@ -13,7 +13,7 @@ const StarSection = () => {
     return (
         <div>
             <main className='main' id='main'>
-                <section className='star section' id='home' style={{backgroundImage: `url(./images/coffee-bg.jpg)`}}>
+                <section className='star' id='home' style={{backgroundImage: `url(./images/coffee-bg.jpg)`}}>
                   <Fade top>
                   <h1>Relax in a comfortable spot and start your day<br/> with
              your favourite cup of coffee.</h1>

@@ -9,8 +9,8 @@ const Items = () => {
     const [filter, setFilter] = useState('main-menu');
     return (
         <div>
-            <section className='items section' id="items">
-                <div className='items-container container'>
+            <section className='items' id="items">
+                <div className='items-container'>
               <Fade Right delay={495}>
                 <h1>Locate appetising cuisine and<br/>
                     select your favourites</h1>

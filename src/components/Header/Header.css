@@ -8,8 +8,6 @@
     box-shadow: 0 1px 4px rgba(130, 122, 122, 0.409);
 }
 
-.container {}
-
 
 .nav-bar {
     display: flex;
@@ -57,14 +55,13 @@ li {
     ;
 }
 
-.toggle {
-    color: plum;
-    cursor: pointer;
-    font-size: 1.5rem;
-    display: inline-block;
-    transition: 0.5s;
-}
+@media screen and (max-width: 768px) {
+    .header {
+        width: 800px;
+    }
 
-.toggle:hover {
-    color: white;
+    .navbar-link {
+        margin-right: 1rem;
+    }
+
 }

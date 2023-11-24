@@ -5,7 +5,7 @@ import './UniqueCatagory.css';
 const UniqueCatagory = () => {
     return (
         <div>
-            <section className='unique section container' id='unique'>
+            <section className='unique' id='unique'>
                 <div className='unique-container'>
                     <div className='unique-box'>
                         <Fade Left delay={495}>

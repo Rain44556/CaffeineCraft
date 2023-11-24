@@ -1,3 +1,7 @@
+.items {
+    padding: 1rem;
+}
+
 .items-container h1 {
     padding: 1rem;
     color: whitesmoke;
@@ -11,9 +15,8 @@
 .items-filter {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 5rem;
     margin-bottom: 2.5rem;
-
 }
 
 
@@ -77,4 +80,11 @@
     top: -1.3rem;
     position: absolute;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    .items {
+        width: 800px;
+    }
 }

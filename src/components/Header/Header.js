@@ -25,12 +25,6 @@ window.addEventListener('scroll', changeHeaderColor)
     <li><a href="#items" className='navbar-link'>Items</a></li>
     <li><a href="#home" className='navbar-link active-link'>Home</a></li>
 </ul>
-
-
-</div>
-
-<div className='toggle' id='toggle'>
-    <i className='bx bx-grid-alt'></i>
 </div>
 </nav>
 </header>

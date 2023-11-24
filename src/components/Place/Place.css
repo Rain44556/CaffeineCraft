@@ -1,5 +1,5 @@
 .place {
-    background-color: rgb(79, 33, 0);
+    padding: 1rem;
 }
 
 
@@ -8,6 +8,7 @@
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2rem;
     padding-top: 3rem;
+    background-color: rgb(79, 33, 0);
 }
 
 .img-place {
@@ -62,4 +63,12 @@
 
 .description {
     margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    .place {
+        width: 800px;
+    }
+
 }
