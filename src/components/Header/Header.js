@@ -14,6 +14,7 @@ const Header = () => {
     };
     window.addEventListener('scroll', changeHeaderColor);
     
+    // Cleanup on unmount
     return ()=>{
             window.addEventListener('scroll', changeHeaderColor)
     }

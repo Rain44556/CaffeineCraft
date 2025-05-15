@@ -1,8 +1,8 @@
 import React from 'react';
 import {Fade} from 'react-reveal'
-import './UniqueCatagory.css';
+import './UniqueCategory.css';
 
-const UniqueCatagory = () => {
+const UniqueCategory = () => {
     return (
         <div>
             <section className='unique' id='unique'>
@@ -63,4 +63,4 @@ const UniqueCatagory = () => {
     );
 };
 
-export default UniqueCatagory;
+export default UniqueCategory;

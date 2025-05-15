@@ -17,12 +17,13 @@
 }
 
 .logo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-family: "Dancing Script", cursive;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
     color: white;
+    padding-left: 5rem;
 }
 
 .logo span {
@@ -52,7 +53,6 @@ li {
 .navbar-link:hover {
     cursor: pointer;
     color: plum;
-    ;
 }
 
 @media screen and (max-width: 768px) {
