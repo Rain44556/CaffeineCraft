@@ -2,10 +2,12 @@
     position: fixed;
     width: 100%;
     background-color: transparent;
-    left: 0;
     top: 0;
     z-index: 99;
-    box-shadow: 0 1px 4px rgba(130, 122, 122, 0.409);
+}
+
+.scroll-header {
+  box-shadow: 0 1px 4px rgba(130, 122, 122, 0.409);
 }
 
 
@@ -13,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5.5rem;
+    padding: 1rem 2rem;
 }
 
 .logo {
@@ -23,31 +25,29 @@
     display: flex;
     align-items: center;
     color: white;
-    padding-left: 5rem;
 }
 
 .logo span {
     color: plum;
-    ;
 }
 
-li {
+.menu{
     display: flex;
-    flex-direction: column;
-    float: right;
-    row-gap: 2rem;
-    padding-top: 0.9rem;
-    text-align: center;
+}
+
+.lists {
+    display: flex;
+    gap: 1.2rem;
+    list-style: none;
 }
 
 .navbar-link {
     color: white;
     text-decoration: none;
-    margin-right: 8rem;
     transition: 0.5s;
     font-size: 1.3rem;
     text-transform: capitalize;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .navbar-link:hover {
@@ -55,13 +55,43 @@ li {
     color: plum;
 }
 
-@media screen and (max-width: 768px) {
-    .header {
-        width: 800px;
-    }
+.hamburger-menu{
+    display: none;
+    font-size: 2.3rem;
+    cursor: pointer;
+    padding-top: 1rem;
+    color: plum;
+    background-color: transparent;
+    border: none;
+}
 
-    .navbar-link {
-        margin-right: 1rem;
-    }
+
+
+@media screen and (max-width: 768px) {
+    .hamburger-menu{
+    display: block;
+}
+
+.menu{
+        position: absolute;
+     display: none;
+    flex-direction: column;
+    background-color: rgb(15, 10, 15);
+    top: 70px;
+    right: 20px;
+    width: 150px;
+    padding: 1.2rem;
+    border-radius: 6px;
+    align-items: center;
+     color: rgb(125, 40, 125);
+    box-shadow: 2px 2px 2px 2px;
+}
+.menu.show-menu{
+    display: flex;
+}
+ .lists {
+    flex-direction: column;
+    gap: 1rem;
+  }
 
 }
