@@ -16,7 +16,7 @@ function App() {
   <UniqueCategory></UniqueCategory>
   <Items></Items>
   <Place></Place>
-  {/* <Footer></Footer> */}
+  <Footer></Footer>
 </div>
   );
 }
