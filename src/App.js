@@ -15,7 +15,7 @@ function App() {
   <StarSection></StarSection>
   <UniqueCategory></UniqueCategory>
   <Items></Items>
-  {/* <Place></Place> */}
+  <Place></Place>
   {/* <Footer></Footer> */}
 </div>
   );
