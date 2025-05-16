@@ -1,57 +1,57 @@
-.star {
-    display: grid;
-    align-items: center;
-    justify-content: right;
-    position: relative;
-    z-index: 1;
+.star-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 3rem;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 
-.star h1 {
-    margin-top: 4rem;
-    margin-right: 3rem;
+.star-content h1 {
     text-align: center;
     color: whitesmoke;
-    position: relative;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 300;
-    z-index: 99;
 }
 
-.star button {
-    font-size: 1.3rem;
+.star-content button {
+    font-size: 1.1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-bottom: 5rem;
-    margin-right: 3rem;
-    padding: 1rem;
+    padding: 1.2rem;
     color: whitesmoke;
     text-align: center;
     background-color: rgb(31, 23, 38);
     transition: 0.5s;
     text-transform: uppercase;
-    border-radius: 0, 5rem;
+    border-radius: 0 5rem;
+    width: 40%;
 }
 
-.star button:hover {
+.star-content button:hover {
     cursor: pointer;
     box-shadow: 2px 2px 4px rgb(50, 39, 59);
 }
 
 @media screen and (max-width: 768px) {
 
-    .star {
-        width: 800px;
-        display: inline-flex;
-
+    .star-content {
+        width: 100%;
+        align-items: center;
+        padding-right: 0rem;
     }
 
-    .star button {
-        padding: 1.4rem;
-        margin-top: 8rem;
-        border-radius: 0, 5rem;
+    .star-content h1 {
+    font-size: 1.4rem;
+}
+
+    .star-content button {
+        width: 90%;
     }
 }

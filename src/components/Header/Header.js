@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Header.css";
 
 const Header = () => {
   const [changeHeader, setChangeHeader] = useState(false);
-const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
  
     const changeHeaderColor = () => {
@@ -22,7 +22,7 @@ const [showMenu, setShowMenu] = useState(false);
       className={`header ${changeHeader ? "scroll-header" : ""}`}
       id="header"
     >
-      <nav className="nav-bar container">
+      <nav className="navbar container">
         <a href="#home" className="logo">
           <span>Caffeine</span>Craft
         </a>

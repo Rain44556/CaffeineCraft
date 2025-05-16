@@ -13,10 +13,10 @@ function App() {
 <div>
   <Header></Header>
   <StarSection></StarSection>
-  <UniqueCategory></UniqueCategory>
+  {/* <UniqueCategory></UniqueCategory>
   <Items></Items>
   <Place></Place>
-  <Footer></Footer>
+  <Footer></Footer> */}
 </div>
   );
 }
