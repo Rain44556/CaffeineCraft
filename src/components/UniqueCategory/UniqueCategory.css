@@ -1,17 +1,15 @@
 .unique-container {
-    padding-left: 10rem;
-    padding-right: 10rem;
-
+    padding: 0 10rem;
 }
 
 .unique-box h3 {
     color: plum;
     text-align: center;
     font-size: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin: 2rem 0;
 }
 
-.unique-catagory {
+.unique-category {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
@@ -26,21 +24,23 @@
     border: 2px solid rgb(13, 11, 11);
     border-radius: 5px;
     box-shadow: 2px 2px 3px 4px rgb(13, 11, 11);
+    justify-items: center;
+    padding: 10px;
 
 }
 
 .unique-coffees h2 {
     text-align: center;
     color: aliceblue;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 10px;
 }
 
 .unique-coffees p {
     text-align: center;
     color: aliceblue;
-    font-size: 1rem;
-    margin-bottom: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
 }
 
 .coffee img {
@@ -50,32 +50,24 @@
     border: 2px solid;
     border-radius: 50%;
     padding: 0.2rem;
-    margin-bottom: 0.8rem;
-    margin-left: 13px;
-    margin-top: 10px;
+    margin-bottom: 1rem;
     background-color: black;
     box-shadow: 2px 2px 2px 2px;
+    object-fit: cover;
 }
 
 
 @media screen and (max-width: 768px) {
 
-    .unique {
-        width: 800px;
-    }
-
     .unique-container {
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding: 0 5%;
     }
 
-    .unique-catagory {
+    .unique-category {
         margin-bottom: 3rem;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .coffee img {
-        margin-left: 2.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        justify-content: center;
+        gap: 2rem;
     }
 
 }
