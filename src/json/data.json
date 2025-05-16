@@ -1,99 +1,99 @@
 {
-    "catagories": [
+    "categories": [
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "category": "main-menu",
             "title": "Pizza",
             "price": "700",
             "imageUrl": "./images/menu/pizza.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "category": "main-menu",
             "title": "Burger",
             "price": "160",
             "imageUrl": "./images/menu/burger.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "category": "main-menu",
             "title": "Chicken Soup",
             "price": "320",
             "imageUrl": "./images/menu/chicken-soup.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "category": "main-menu",
             "title": "Chicken Chowmein",
             "price": "220",
             "imageUrl": "./images/menu/chicken-chowmein.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "category": "main-menu",
             "title": "Vegitable Soup",
             "price": "200",
             "imageUrl": "./images/menu/veg-soup.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "category": "main-menu",
             "title": "Italian Pasta",
             "price": "250",
             "imageUrl": "./images/menu/italian-pasta.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "main-menu",
+            "category": "main-menu",
             "title": "Ramen",
             "price": "320",
             "imageUrl": "./images/menu/ramen.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "deserts",
+            "category": "deserts",
             "title": "Pestry",
             "price": "60",
             "imageUrl": "./images/menu/pestry.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "deserts",
+            "category": "deserts",
             "title": "Cupcake",
             "price": "120",
             "imageUrl": "./images/menu/cupcake.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "deserts",
+            "category": "deserts",
             "title": "Pudding",
             "price": "50",
             "imageUrl": "./images/menu/pudding.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "drinks",
+            "category": "drinks",
             "title": "Oreo shake",
             "price": "170",
             "imageUrl": "./images/menu/oreo shake.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "drinks",
+            "category": "drinks",
             "title": "Strawberry shake",
             "price": "210",
             "imageUrl": "./images/menu/strawbery-shake.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "drinks",
+            "category": "drinks",
             "title": "Lemonade juice",
             "price": "120",
             "imageUrl": "./images/menu/lemonade.jpg"
         },
         {
             "_id": "pqr567",
-            "catagory": "drinks",
+            "category": "drinks",
             "title": "Orange juice",
             "price": "110",
             "imageUrl": "./images/menu/orange-juice.jpg"

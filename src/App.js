@@ -14,9 +14,9 @@ function App() {
   <Header></Header>
   <StarSection></StarSection>
   <UniqueCategory></UniqueCategory>
-  {/* <Items></Items>
-  <Place></Place>
-  <Footer></Footer> */}
+  <Items></Items>
+  {/* <Place></Place> */}
+  {/* <Footer></Footer> */}
 </div>
   );
 }
