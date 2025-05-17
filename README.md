@@ -5,6 +5,19 @@ Caffeine Craft is a responsive coffee-themed website built with **React**. It fe
 ## Live Demo
 👉 [View the Live Site](https://caffeine-craft.netlify.app/)
 
+## Screenshots
+
+### 🏠 Homepage Hero Section
+![Hero Section](./public/screenshots/homepage.png)
+
+
+### 📦 Menu-Items
+![Items](./public/screenshots/menu.png)
+
+### 🔻 Location and Footer
+![Place](./public/screenshots/footer.png)
+
+
 ## Features
 
 - **Header:** Features a sticky navigation bar with smooth scroll effects.
