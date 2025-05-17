@@ -7,15 +7,14 @@ Caffeine Craft is a responsive coffee-themed website built with **React**. It fe
 
 ## Screenshots
 
-### 🏠 Homepage Hero Section
-![Hero Section](./public/screenshots/homepage.png)
-
+### 🏠 Hero Section
+![Hero](./public/screenshots/homepage.png)
 
 ### 📦 Menu-Items
 ![Items](./public/screenshots/menu.png)
 
-### 🔻 Location and Footer
-![Place](./public/screenshots/footer.png)
+### 🔻 place and Footer
+![Place and Footer](./public/screenshots/footer.png)
 
 
 ## Features
